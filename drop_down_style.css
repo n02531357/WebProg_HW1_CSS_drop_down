@@ -1,0 +1,44 @@
+body {
+	background: #EDEDED;
+}
+
+nav {
+	margin-left: auto;
+	margin-right: auto;
+	width: 33%
+}
+
+ul {
+  	text-align: left;
+  	display: inline;
+  	list-style: none;
+}
+
+ul li {
+  	display: inline-block;
+  	margin-right: -5px;
+ 	position: relative;
+ 	padding: 10px;
+ 	font-weight:800;
+ 	background: #7070B8;
+}
+ul li:hover {
+ 	background: #E2E2F1;
+ 	color: #7070B8;
+}
+ul li ul {
+ 	position: absolute;
+ 	top: 38px;
+ 	display: none;
+  	visibility: hidden;
+}
+ul li ul li { 
+ 	background: #E2E2F1;
+ 	color: #7070B8; 
+ 	display: block; 
+}
+
+ul li:hover ul {
+  	display: block;
+ 	visibility: visible;
+}
